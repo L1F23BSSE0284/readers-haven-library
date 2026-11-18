@@ -4,7 +4,8 @@
   "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "parcel build src/*.html --dist-dir dist"
+    "build": "parcel build src/*.html --dist-dir dist",
+    "start": "parcel src/index.html"
   },
   "devDependencies": {
     "parcel": "^2.15.0"
