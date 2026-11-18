@@ -78,6 +78,137 @@ li {
     padding: 55px 25px;
 }
 
+/* MEMBERSHIP PAGE */
+
+.membership-hero {
+    background: #eaf3ed;
+    padding: 65px 20px;
+    text-align: center;
+}
+
+.membership-hero h2 {
+    font-size: 36px;
+    color: #245c43;
+    margin-bottom: 15px;
+}
+
+.membership-hero p {
+    max-width: 700px;
+    margin: auto;
+    line-height: 1.7;
+    color: #555;
+}
+
+.membership-section {
+    padding-top: 55px;
+    padding-bottom: 55px;
+    text-align: center;
+}
+
+.membership-section > h2 {
+    font-size: 30px;
+    margin-bottom: 35px;
+    color: #245c43;
+}
+
+.membership-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.membership-card {
+    background: #fff;
+    padding: 30px 22px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease;
+}
+
+.membership-card:hover {
+    transform: translateY(-6px);
+}
+
+.membership-card h3 {
+    color: #245c43;
+    font-size: 23px;
+}
+
+.membership-price {
+    font-size: 28px;
+    font-weight: bold;
+    color: #b17b35;
+    margin: 20px 0;
+}
+
+.membership-price span {
+    font-size: 14px;
+    color: #777;
+}
+
+.membership-card ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    line-height: 2.2;
+    margin-bottom: 25px;
+}
+
+.membership-card li::before {
+    content: "✓ ";
+    color: #245c43;
+    font-weight: bold;
+}
+
+.membership-card.featured {
+    border: 2px solid #b17b35;
+}
+
+.membership-btn {
+    display: inline-block;
+    background: #245c43;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.membership-btn:hover {
+    background: #173e2d;
+}
+
+.membership-rules {
+    padding-top: 20px;
+    padding-bottom: 55px;
+}
+
+.membership-rules h2 {
+    color: #245c43;
+}
+
+.membership-rules ul {
+    line-height: 2;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .membership-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .membership-hero h2 {
+        font-size: 28px;
+    }
+
+    .membership-card {
+        max-width: 500px;
+        width: 100%;
+        margin: auto;
+    }
+}
+
+
 .hero h2 {
     font-size: 30px;
 }
