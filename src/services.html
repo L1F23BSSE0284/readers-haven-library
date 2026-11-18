@@ -1,71 +1,186 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore digital services at Readers Haven Library.">
     <title>Readers Haven Library | Digital Services</title>
     <link rel="stylesheet" href="../styles/style.css">
 </head>
 <body>
-
-    <header>
-        <h1>Readers Haven Library</h1>
-        <p>Explore Our Digital Library Services</p>
-
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="collections.html">Collections</a>
-            <a href="membership.html">Membership</a>
-            <a href="services.html">Digital Services</a>
-            <a href="contact.html">Contact</a>
-        </nav>
+ 
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-content">
+ 
+            <div class="logo">
+                <span class="logo-icon">📖</span>
+                <div>
+                    <h1>Readers Haven Library</h1>
+                    <p>Explore Our Digital Library Services</p>
+                </div>
+            </div>
+ 
+            <nav class="navbar">
+                <a href="index.html">Home</a>
+                <a href="collections.html">Collections</a>
+                <a href="membership.html">Membership</a>
+                <a href="services.html" class="active">Digital Services</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+ 
+        </div>
     </header>
-
+ 
     <main>
-        <section class="hero">
-            <h2>Our Digital Services</h2>
-            <p>Access learning resources and library services with ease.</p>
+ 
+        <!-- Hero Section -->
+        <section class="services-hero">
+            <div class="container">
+ 
+                <span class="hero-label">SMART LIBRARY EXPERIENCE</span>
+ 
+                <h2>Our Digital Services</h2>
+ 
+                <p>Access learning resources and library services with ease.</p>
+ 
+                <a href="#services" class="hero-button">Explore Services</a>
+ 
+            </div>
         </section>
-
-        <section>
-            <h2>1. E-Book Access</h2>
-            <p>Explore digital books and enjoy reading on your computer, tablet, or mobile device.</p>
-            <p><strong>Availability:</strong> 24 hours a day, 7 days a week.</p>
-            <p><strong>How to access:</strong> Log in using your library membership details and select an available e-book.</p>
+ 
+        <!-- Services Section -->
+        <section class="services-section container" id="services">
+ 
+            <div class="section-heading">
+                <span>WHAT WE OFFER</span>
+                <h2>Our Library Services</h2>
+                <p>Everything you need for reading, research and productive learning.</p>
+            </div>
+ 
+            <div class="services-grid">
+ 
+                <!-- E-Book Access -->
+                <article class="service-card">
+                    <div class="service-icon">📱</div>
+ 
+                    <h3>E-Book Access</h3>
+ 
+                    <p>
+                        Explore digital books and enjoy reading on your
+                        computer, tablet, or mobile device.
+                    </p>
+ 
+                    <div class="service-info">
+                        <strong>Availability</strong>
+                        <span>24 hours a day, 7 days a week</span>
+                    </div>
+ 
+                    <div class="service-info">
+                        <strong>How to access</strong>
+                        <span>Log in using your library membership details and select an available e-book.</span>
+                    </div>
+                </article>
+ 
+                <!-- Online Book Catalogue -->
+                <article class="service-card">
+                    <div class="service-icon">📚</div>
+ 
+                    <h3>Online Book Catalogue</h3>
+ 
+                    <p>
+                        Search our book collection and check book titles,
+                        authors, and availability.
+                    </p>
+ 
+                    <div class="service-info">
+                        <strong>Availability</strong>
+                        <span>Monday to Saturday, 9:00 AM – 8:00 PM</span>
+                    </div>
+ 
+                    <div class="service-info">
+                        <strong>How to use</strong>
+                        <span>Enter a book title or author name in the catalogue search and browse the results.</span>
+                    </div>
+                </article>
+ 
+                <!-- Digital Research Resources -->
+                <article class="service-card">
+                    <div class="service-icon">🔎</div>
+ 
+                    <h3>Digital Research Resources</h3>
+ 
+                    <p>
+                        Access educational articles, reference materials,
+                        and online learning resources for academic research.
+                    </p>
+ 
+                    <div class="service-info">
+                        <strong>Availability</strong>
+                        <span>Monday to Saturday, 10:00 AM – 6:00 PM</span>
+                    </div>
+ 
+                    <div class="service-info">
+                        <strong>How to access</strong>
+                        <span>Visit the library and ask the staff for assistance with digital research resources.</span>
+                    </div>
+                </article>
+ 
+                <!-- Online Membership Support -->
+                <article class="service-card">
+                    <div class="service-icon">🪪</div>
+ 
+                    <h3>Online Membership Support</h3>
+ 
+                    <p>
+                        Get assistance with membership information, renewals,
+                        and library account questions.
+                    </p>
+ 
+                    <div class="service-info">
+                        <strong>Availability</strong>
+                        <span>Monday to Saturday, 9:00 AM – 5:00 PM</span>
+                    </div>
+ 
+                    <div class="service-info">
+                        <strong>How to use</strong>
+                        <span>Contact our library team through the contact page and provide your membership details.</span>
+                    </div>
+                </article>
+ 
+            </div>
         </section>
-
-        <section>
-            <h2>2. Online Book Catalogue</h2>
-            <p>Search our book collection and check book titles, authors, and availability.</p>
-            <p><strong>Availability:</strong> Monday to Saturday, 9:00 AM – 8:00 PM.</p>
-            <p><strong>How to use:</strong> Enter a book title or author name in the catalogue search and browse the results.</p>
+ 
+        <!-- Call To Action -->
+        <section class="service-cta">
+            <div class="container">
+ 
+                <h2>Enjoy Learning with Us!</h2>
+ 
+                <p>Readers Haven Library makes knowledge and learning resources easier to access.</p>
+ 
+                <a href="contact.html" class="cta-button">Get Support</a>
+ 
+            </div>
         </section>
-
-        <section>
-            <h2>3. Digital Research Resources</h2>
-            <p>Access educational articles, reference materials, and online learning resources for academic research.</p>
-            <p><strong>Availability:</strong> Monday to Saturday, 10:00 AM – 6:00 PM.</p>
-            <p><strong>How to access:</strong> Visit the library and ask the staff for assistance with digital research resources.</p>
-        </section>
-
-        <section>
-            <h2>4. Online Membership Support</h2>
-            <p>Get assistance with membership information, renewals, and library account questions.</p>
-            <p><strong>Availability:</strong> Monday to Saturday, 9:00 AM – 5:00 PM.</p>
-            <p><strong>How to use:</strong> Contact our library team through the contact page and provide your membership details.</p>
-            <a href="contact.html" class="btn">Get Support</a>
-        </section>
-
-        <section>
-            <h2>Enjoy Learning with Us!</h2>
-            <p>Readers Haven Library makes knowledge and learning resources easier to access.</p>
-        </section>
+ 
     </main>
-
-    <footer>
-        <p>&copy; 2026 Readers Haven Library. All rights reserved.</p>
+ 
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+ 
+            <h3>Readers Haven Library</h3>
+ 
+            <p>Your Gateway to Knowledge and Learning.</p>
+ 
+            <p class="copyright">
+                &copy; 2026 Readers Haven Library. All rights reserved.
+            </p>
+ 
+        </div>
     </footer>
-
+ 
 </body>
 </html>
+ 
