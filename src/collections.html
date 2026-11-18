@@ -6,7 +6,78 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Readers Haven Library | Collections</title>
     <link rel="stylesheet" href="../styles/style.css">
+
+    <style>
+        main {
+            max-width: 1100px;
+            margin: auto;
+            padding: 30px 20px;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 45px 20px;
+            margin-bottom: 30px;
+            border-radius: 12px;
+        }
+
+        main > section:not(.hero) {
+            padding: 25px;
+            margin-bottom: 25px;
+            border-radius: 12px;
+        }
+
+        .collections-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+
+        .collections-grid section {
+            padding: 25px;
+            border-radius: 12px;
+        }
+
+        section h2 {
+            margin-top: 0;
+            margin-bottom: 12px;
+        }
+
+        section p {
+            line-height: 1.7;
+        }
+
+        section ul {
+            padding-left: 22px;
+            line-height: 2;
+        }
+
+        .visit-section {
+            text-align: center;
+            padding: 40px 20px !important;
+            margin-top: 30px;
+        }
+
+        .visit-section .btn {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 12px 25px;
+            border-radius: 6px;
+            text-decoration: none;
+        }
+
+        @media (max-width: 650px) {
+            .collections-grid {
+                grid-template-columns: 1fr;
+            }
+
+            main {
+                padding: 20px 12px;
+            }
+        }
+    </style>
 </head>
+
 <body>
 
     <header>
@@ -23,56 +94,62 @@
     </header>
 
     <main>
+
         <section class="hero">
             <h2>Discover Our Collections</h2>
             <p>Find your next favorite book from our wide range of collections.</p>
         </section>
 
-        <section>
-            <h2>1. Fiction Collection</h2>
-            <p>Explore stories, novels, mysteries, adventures, and imaginative worlds.</p>
-            <ul>
-                <li>Harry Potter and the Philosopher's Stone</li>
-                <li>To Kill a Mockingbird</li>
-                <li>Pride and Prejudice</li>
-            </ul>
+        <section class="collections-grid">
+
+            <section>
+                <h2>1. Fiction Collection</h2>
+                <p>Explore stories, novels, mysteries, adventures, and imaginative worlds.</p>
+                <ul>
+                    <li>Harry Potter and the Philosopher's Stone</li>
+                    <li>To Kill a Mockingbird</li>
+                    <li>Pride and Prejudice</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>2. Non-Fiction Collection</h2>
+                <p>Learn about real events, people, science, history, and personal development.</p>
+                <ul>
+                    <li>Atomic Habits</li>
+                    <li>Educated</li>
+                    <li>A Brief History of Time</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>3. Children's Corner</h2>
+                <p>A special collection designed to encourage children to enjoy reading.</p>
+                <ul>
+                    <li>The Very Hungry Caterpillar</li>
+                    <li>Charlotte's Web</li>
+                    <li>Matilda</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>4. Reference Collection</h2>
+                <p>Find useful educational materials for research and academic learning.</p>
+                <ul>
+                    <li>Oxford English Dictionary</li>
+                    <li>Encyclopedia Britannica</li>
+                    <li>World Atlas</li>
+                </ul>
+            </section>
+
         </section>
 
-        <section>
-            <h2>2. Non-Fiction Collection</h2>
-            <p>Learn about real events, people, science, history, and personal development.</p>
-            <ul>
-                <li>Atomic Habits</li>
-                <li>Educated</li>
-                <li>A Brief History of Time</li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>3. Children's Corner</h2>
-            <p>A special collection designed to encourage children to enjoy reading.</p>
-            <ul>
-                <li>The Very Hungry Caterpillar</li>
-                <li>Charlotte's Web</li>
-                <li>Matilda</li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>4. Reference Collection</h2>
-            <p>Find useful educational materials for research and academic learning.</p>
-            <ul>
-                <li>Oxford English Dictionary</li>
-                <li>Encyclopedia Britannica</li>
-                <li>World Atlas</li>
-            </ul>
-        </section>
-
-        <section>
+        <section class="visit-section">
             <h2>Visit Our Library</h2>
             <p>Explore these collections and discover something new every day!</p>
             <a href="membership.html" class="btn">View Membership Plans</a>
         </section>
+
     </main>
 
     <footer>
